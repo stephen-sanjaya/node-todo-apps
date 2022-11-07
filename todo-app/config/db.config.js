@@ -5,7 +5,7 @@ module.exports = {
     USER: process.env.MYSQL_USER,
     PASSWORD: process.env.MYSQL_PASSWORD,
     DB: process.env.MYSQL_DBNAME,
-    port: process.env.MYSQL_PORT,
+    port: 3306,
     dialect: "mysql",
     pool: {
       max: 5,
